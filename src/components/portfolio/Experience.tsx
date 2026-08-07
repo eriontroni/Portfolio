@@ -21,9 +21,9 @@ export default function Experience() {
                   'group flex w-full items-start justify-between gap-3 rounded-xl border border-border/70 bg-card/60 p-4 text-left transition-colors hover:border-primary/40 sm:gap-4 sm:p-5'
                 )}
               >
-                <div>
+                <div className="min-w-0">
                   <div className="font-mono text-xs text-primary">{e.period}</div>
-                  <div className="mt-1 text-lg font-semibold">
+                  <div className="mt-1 text-base font-semibold sm:text-lg">
                     {e.role} <span className="text-muted-foreground">@ {e.company}</span>
                   </div>
                   <div className="mt-1 text-sm text-muted-foreground">{e.location}</div>
